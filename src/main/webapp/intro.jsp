@@ -9,6 +9,10 @@
 	<title>Geek Factory Project</title>
 	<link rel="stylesheet" href="./css/intro-style.css">
 	<link rel="icon" href="./img/icon.png">
+	<!-- jQuery con Subresource Integrity (SRI) e attributo Crossorigin -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-xKRSWT7ZmNtvRWv6N/2c2u6i6GmECU00N6Kk9aS+Yr8="
+            crossorigin="anonymous"></script>
 	
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 </head>
@@ -50,12 +54,7 @@ $(function() {
 		setTimeout(function() {
 				welcomeSection.removeClass('content-hidden');
 		},800);
-		
-		
-
 });
-
 </script>
-
 </body>
 </html>
